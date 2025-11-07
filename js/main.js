@@ -40,7 +40,7 @@ function displayMessage() {
   return new Promise((resolve) => {
     const delay = 1000 + Math.random() * 1000;
     setTimeout(() => {
-      resolve("You clicked on the body");
+      resolve("The body of the document was clicked!");
     }, delay);
   });
 }
